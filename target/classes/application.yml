@@ -1,0 +1,48 @@
+#server:
+#  port: 8080
+#spring:
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/hathra_hina_db
+#    username: root
+#    password: Aash1234
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#    open-in-view: false
+#  threads:
+#    virtual:
+#      enabled: true
+
+
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:mysql://db4free.net:3306/customer_api_db
+    username: mohamed_aash
+    password: Aash1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: false
+  threads:
+    virtual:
+      enabled: true
+
+#server:
+#  port: 8080
+#spring:
+#  datasource:
+#    url: jdbc:mysql://sql8.freemysqlhosting.net:3306/sql8680617
+#    username: sql8680617
+#    password: m9kQpuECPx
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#    open-in-view: false
+#  threads:
+#    virtual:
+#      enabled: true
